@@ -34,6 +34,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+
+    transition: width 0.1s, heigth 0.1s;
+    trabsition-timing-function: ease;
 }
 section#login > div#imagem {
     background: #5f2c82 url(../imagens/pexels-igor-visuals-3681805.jpg) no-repeat;
